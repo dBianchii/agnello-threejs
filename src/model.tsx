@@ -1,6 +1,6 @@
 import { useGLTF } from "@react-three/drei";
 
-const logoPath = "/public/logo.gltf";
+const logoPath = "/logo.gltf";
 useGLTF.preload(logoPath);
 
 export const Model = () => {
